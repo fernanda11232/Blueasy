@@ -1,0 +1,723 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* settings */
+a {
+  color: #fff;
+}
+
+.hola {
+  background-image: url("../images/Fondo.png");
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: #48535adf;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.color {
+  color: rgb(0, 195, 255);
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.barra a {
+  display: flex;
+  margin: 10%;
+  font-size: 15px;
+
+}
+
+.home {
+  border: 2px solid rgb(0, 195, 255);
+  padding: 10px 30px;
+  align-items: center;
+  color: rgb(0, 195, 255);
+}
+
+.arriba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 57vh;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.t1 {
+  display: flex;
+  margin-right: 100px;
+  margin-left: 200px;
+  background-color: #48535adf;
+  margin-bottom: 10px;
+}
+
+.t2 {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  background-color: #48535adf;
+
+}
+
+.textoarriba {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+  margin-left: 0px;
+}
+
+.arriba1 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 195, 255);
+  height: 400px;
+  justify-content: center;
+
+
+
+}
+
+
+.img {
+  display: flex;
+  margin-bottom: 10px;
+
+
+}
+
+.titulo1 {
+  display: flex;
+  height: 30px;
+  color: #fff;
+
+}
+
+.texto1 {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin: 10px;
+}
+
+.texto {
+  width: 260px;
+  color: #fff;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+
+
+}
+
+.titulo2 {
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+}
+
+.barra1 {
+  display: flex;
+  margin-right: 200px;
+
+}
+
+.textobarra1 {
+  color: black;
+}
+
+.barra1 a {
+  display: flex;
+  margin: 5%;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.imagenes {
+  display: grid;
+  grid-template-areas:
+    "zona1 zona2 zona3 zona4"
+    "zona5 zona6 zona7 zona8";
+
+  grid-gap: 30px;
+  width: 68vw;
+  height: 63vh;
+  
+}
+
+.x1 {
+  background-image: url("../images/photo01.png");
+  grid-area: zona1;
+  background-size: cover;
+}
+
+.x2 {
+  background-image: url("../images/photo02.png");
+  grid-area: zona2;
+  background-size: cover;
+}
+
+.x3 {
+  background-image: url("../images/photo03.png");
+  grid-area: zona3;
+  background-size: cover;
+}
+
+.x4 {
+  background-image: url("../images/photo04.png");
+  grid-area: zona4;
+  background-size: cover;
+}
+
+.x5 {
+  background-image: url("../images/photo05.png");
+  grid-area: zona5;
+  background-size: cover;
+}
+
+.x6 {
+  background-image: url("../images/photo06.png");
+  grid-area: zona6;
+  background-size: cover;
+}
+
+.x7 {
+  background-image: url("../images/photo07.png");
+  grid-area: zona7;
+  background-size: cover;
+}
+
+.x8 {
+  background-image: url("../images/photo08.png");
+  grid-area: zona8;
+  background-size: cover;
+}
+
+.video{
+  display: flex;
+  background-color: #48535adf;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.titulovideo {
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.cajavideo{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.textosvideo{
+  margin-right: 100px;
+  color: #fff;
+}
+
+.textovideo{
+  margin-bottom: 20px;
+}
+
+
+.buton{
+  margin-top: 30px;
+}
+
+.botonvideo {
+  border: 2px solid black;
+  padding: 10px 30px;
+  align-items: center;
+  color: black;
+
+}
+
+.twitter{
+  background-color: rgb(0, 195, 255); 
+  height: 200px;
+  justify-content: center;
+  
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items:center ;
+  height: 80px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.textostwitter{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  
+}
+
+.textotwitter{
+  display: flex;
+  margin-right: 150px;
+}
+
+.textotwitter2{
+  display: flex;
+  margin-right: 850px;
+}
+
+.camara{
+  display: flex;
+  background-image: url("../images/bg_whoIs.png");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+
+
+
+.textoscamara{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 400px;
+  color: #fff;
+} 
+.titulocamara{
+  margin-right: 410px; 
+  font-size: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.textocamara{
+  margin-bottom: 30px;
+  width: 600px;
+
+}
+
+.textocamara2{
+  width: 600px;
+}
+
+.derechacamara{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textocamara3{
+  margin-top: 30px; 
+  margin-left: 50px;
+  width: 500px;
+  font-size: 20px;
+  color: #fff;
+}
+.logoscamara{
+  margin-top: 20px;
+}
+
+.testimonials{
+  background-color: #fff;
+  justify-content: center;
+  height: 200px;
+  
+}
+
+.logotestimonials{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items:center ;
+  height: 80px;
+  margin-bottom: 20px;
+  color:  #48535adf;
+  font-size: 25px;
+
+}
+
+.textostestimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #48535adf;
+}
+
+.textotestimonials{
+  display: flex;
+  margin-right: 200px;
+  width: 900px;
+  margin-bottom: 20px;
+}
+
+.textotestimonials2{
+  display: flex;
+  margin-right: 1020px;
+}
+.walter{
+  color: rgb(0, 195, 255) ;
+}
+
+.contacto{
+  display: flex;
+  background-image: url("../images/bg_contact.png");
+  background-repeat: no-repeat;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.izquierda{
+  display: flex;
+ flex-direction: column;
+ 
+}
+
+.inputizquierda{
+  margin-bottom: 100px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulocontacto{
+  margin-bottom: 20px;
+  margin-top: 100px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto1{
+  margin-top: 10px;
+}
+.campo1{
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: inherit;
+  border-color: #fff;
+  width: 600px;
+}
+
+.contacto2{
+  margin-top: 10px;
+}
+.campo2{
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: inherit;
+  border-color: #fff;
+  width: 600px;
+}
+
+.contacto3{
+  margin-top: 10px;
+}
+.campo3{
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: inherit;
+  border-color: #fff;
+  width: 1000px;
+}
+
+.botoncontacto{
+  padding: 10px 30px;
+  align-items: center;
+  color:#fff;
+  background-color: rgb(0, 195, 255)  ;
+  width: 200px;
+  height: 50px;
+}
+.derecha{
+  display: flex;
+  width: 500px;
+}
+
+.textosderecha{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 350px;
+  color: #fff;
+}
+
+.textoderecha1{
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.textoabajo{
+  display: flex;
+  background-color: #48535adf;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  color: rgba(138, 136, 136, 0.925);
+}
+
+.barrafooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:600px;
+}
+
+.linksfooter{
+ color: rgba(138, 136, 136, 0.925);
+}
+
+@media (max-width:600px){
+  header{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .hola{
+    background-position: center;
+  }
+
+  .barra{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arriba{
+    display: flex;
+    font-size: 15px;
+  }
+
+  .t1{
+    font-size: 15px;
+    padding-right: 20px;
+    
+  }
+
+  .t2{
+    font-size: 15px;
+    width: 395px;
+  }
+
+  .arriba1{
+   flex-direction: column;
+   height: 100%;
+   }
+
+   .texto1{
+    padding: 20px 0;
+   }
+
+  .galeria{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .imagenes{
+    height: 200px;
+    width: 400px;
+  }
+
+  .video{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .cajavideo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .video1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  
+
+  .textostwitter{
+    padding-left: 120px ;
+    height: 100%;
+    
+
+  }
+
+  .textotwitter2{
+    display: flex;
+    padding-left: 490px;
+    flex-direction: row ;
+    padding-top: 10px;
+    
+  }
+
+  .queso{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .camara{
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+  }
+
+  .titulocamara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 100px;
+    width: 200px;
+    margin-left: 400px;
+  }
+  .textoscamara{
+    display: flex;
+    margin-left: 10%;
+    font-size: 15px;
+    align-items: center;
+    padding-right: 10%;
+
+   
+  }
+
+  .textocamara{
+    display: flex;
+    padding-left: 58px;
+  }
+  .textocamara2{
+    display: flex;
+    padding-left: 58px;
+
+  }
+  .textocamara3{
+    font-size: 15px;
+    padding-top: 50px;
+    width: 100%;
+   
+  }
+
+  .derechacamara{
+   padding-left: 2%;
+  }
+
+  .testimonials{
+    height: 100%;
+  }
+  .textostestimonials{
+    padding-left: 120px ;
+    height: 100%;
+    
+
+  }
+
+  .textotestimonials{
+    padding-left: 65px;
+    width: 500px;
+  }
+
+  .textotestimonials2{
+    display: flex;
+    padding-left: 490px;
+    flex-direction: row ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+  }
+
+  .contacto{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+   }
+
+  .campo3{
+    display: flex;
+    width: 600px;
+  }
+
+  .textosderecha{
+    display: flex;
+    width: 600px;
+  }
+
+  .barrafooter{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+   
+  }
+
+  .linksfooter{
+    display: flex;
+   
+  }
+
+ 
+ 
+}
+
+
+
